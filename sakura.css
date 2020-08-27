@@ -1,0 +1,49 @@
+body {
+    padding:0;
+    margin:0;
+    overflow-x: hidden;
+}
+
+.introduction {
+    padding: 0;
+    margin: 0;
+}
+
+.introduction canvas {
+    width: 100%;
+    max-height: 735px;
+}
+
+.introduction .btnbg {
+    position:fixed;
+    left:0;
+    top:0;
+}
+
+.introduction .intro {
+    position: absolute;
+    transform: translate(0, -210%);
+    text-align: center;
+	color: #e0ffff;
+	width: 100%;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    text-shadow: 0px 5px 20px black;
+    font-size: calc(0.45em + 1vmin);
+}
+
+.introduction .intro h1 {
+    font-weight: 500;
+    font-size: 500%;
+}
+
+.introduction .intro p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 150%;
+    font-style: italic;
+}
+
+.introduction .intro p a {
+    text-decoration: none;
+    font-style: normal;
+    color: #663399;
+}
